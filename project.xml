@@ -1,0 +1,26 @@
+<EBProj>
+  <projectName>JesseStore品牌官网</projectName>
+  <projectItems count="16">
+    <page pathname="/login" alias="登录总入口" />
+    <image pathname="/login/banner.jpg" />
+    <image pathname="/login/CPY0000.jpg" />
+    <image pathname="/login/CPY0001.jpg" />
+    <image pathname="/login/CPY0002.jpg" />
+    <image pathname="/login/CPY0003.jpg" />
+    <image pathname="/login/login@2x.png" />
+    <image pathname="/login/loginWait.jpg" />
+    <image pathname="/login/logo@2x.png" />
+    <image pathname="/login/mp.jpg" />
+    <image pathname="/login/page - 副本.xml" />
+    <image pathname="/login/reg@2x.png" />
+    <image pathname="/login/xz_bn.png" />
+    <image pathname="/login/CPY0004.jpg" />
+    <image pathname="/login/mobile@2x.png" />
+    <image pathname="/login/password@2x.png" />
+  </projectItems>
+  <dbConnections count="1">
+    <connection name="PJ">
+      <connectionString>DSN=ProjectAdmin;UID=saa;PWD=8Ugw@Rrh#8KJjpPwd;</connectionString>
+    </connection>
+  </dbConnections>
+</EBProj>
