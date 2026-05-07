@@ -1,6 +1,6 @@
 <EBProj>
   <projectName>JesseStore品牌官网</projectName>
-  <projectItems count="16">
+  <projectItems count="18">
     <page pathname="/login" alias="登录总入口" />
     <image pathname="/login/banner.jpg" />
     <image pathname="/login/CPY0000.jpg" />
@@ -17,6 +17,8 @@
     <image pathname="/login/CPY0004.jpg" />
     <image pathname="/login/mobile@2x.png" />
     <image pathname="/login/password@2x.png" />
+    <page pathname="/main" alias="" />
+    <image pathname="/main/CPY0002.jpg" />
   </projectItems>
   <dbConnections count="1">
     <connection name="PJ">

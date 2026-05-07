@@ -1,0 +1,175 @@
+<page>
+  <controls count="10">
+    <control type="DivRoot" pathname="/divRoot">
+      <backgroundColor>ffffff</backgroundColor>
+      <bgColorEnabled>true</bgColorEnabled>
+      <dockX>fill</dockX>
+      <height>2000</height>
+      <left>0</left>
+      <top>-1</top>
+      <width>1207</width>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel1">
+      <dockX>center</dockX>
+      <dockY>top</dockY>
+      <heightRatio>0.125</heightRatio>
+      <left>103</left>
+      <leftRatio>0.0845070422535211</leftRatio>
+      <sizeRatio>0.1</sizeRatio>
+      <top>0</top>
+      <width>1000</width>
+      <widthRatio>0.828500414250207</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel1/panel3">
+      <backgroundImg>CPY0002.jpg</backgroundImg>
+      <backgroundImgMode>fill</backgroundImgMode>
+      <dockY>center</dockY>
+      <height>76</height>
+      <heightRatio>0.76</heightRatio>
+      <left>12</left>
+      <leftRatio>0.012</leftRatio>
+      <sizeRatio>0.339285714285714</sizeRatio>
+      <top>12</top>
+      <topRatio>0.12</topRatio>
+      <width>224</width>
+      <widthRatio>0.224</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel1/layoutx1">
+      <fieldCount>4</fieldCount>
+      <height>62</height>
+      <heightRatio>0.62</heightRatio>
+      <left>351</left>
+      <leftRatio>0.351</leftRatio>
+      <sizeRatio>0.103852596314908</sizeRatio>
+      <top>21</top>
+      <topRatio>0.21</topRatio>
+      <width>597</width>
+      <widthRatio>0.597</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel1/layoutx1/layoutxitem1">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>2155A5</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>62</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.416107382550336</sizeRatio>
+      <text>HOME</text>
+      <top>0</top>
+      <width>149</width>
+      <widthRatio>0.249581239530988</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel1/layoutx1/layoutxitem1/panel2">
+      <backgroundColor>2155A5</backgroundColor>
+      <bgColorEnabled>true</bgColorEnabled>
+      <dockX>fill</dockX>
+      <dockY>bottom</dockY>
+      <fontColor>2155A5</fontColor>
+      <height>4</height>
+      <heightRatio>0.0645161290322581</heightRatio>
+      <left>0</left>
+      <leftRatio>0.187919463087248</leftRatio>
+      <sizeRatio>0.04</sizeRatio>
+      <top>58</top>
+      <topRatio>0.935483870967742</topRatio>
+      <width>149</width>
+      <widthRatio>0.671140939597315</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel1/layoutx1/layoutxitem2">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>505050</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>62</height>
+      <heightRatio>1</heightRatio>
+      <left>149</left>
+      <leftRatio>0.249581239530988</leftRatio>
+      <sizeRatio>0.413333333333333</sizeRatio>
+      <text>PRODUCTS</text>
+      <top>0</top>
+      <width>150</width>
+      <widthRatio>0.251256281407035</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel1/layoutx1/layoutxitem3">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>505050</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>62</height>
+      <heightRatio>1</heightRatio>
+      <left>299</left>
+      <leftRatio>0.500837520938023</leftRatio>
+      <sizeRatio>0.416107382550336</sizeRatio>
+      <text>ABOUT</text>
+      <top>0</top>
+      <width>149</width>
+      <widthRatio>0.249581239530988</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel1/layoutx1/layoutxitem4">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>505050</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>62</height>
+      <heightRatio>1</heightRatio>
+      <left>448</left>
+      <leftRatio>0.750418760469012</leftRatio>
+      <sizeRatio>0.416107382550336</sizeRatio>
+      <text>CONTACT</text>
+      <top>0</top>
+      <width>149</width>
+      <widthRatio>0.249581239530988</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel4">
+      <__U_resizeMode type="enum">width</__U_resizeMode>
+      <backgroundImg>152241.png</backgroundImg>
+      <backgroundImgMode>fill</backgroundImgMode>
+      <bindControl>panel1</bindControl>
+      <bindTop>bottom</bindTop>
+      <dockX>fill</dockX>
+      <height>528</height>
+      <heightRatio>0.66</heightRatio>
+      <left>0</left>
+      <onCreate><![CDATA[const observer = new ResizeObserver(entries => {
+    for (let entry of entries) {
+        //const width = entry.contentRect.width;
+        //const height = entry.contentRect.height;
+        if (!sender.img) return;
+        let r = eb.getDivRectSetting(sender);
+        let ratio = sender.img.naturalHeight / sender.img.naturalWidth;
+        let thisW, thisH;
+        if (sender.resizeMode == "width") {
+            thisW = r.w;
+            thisH = parseInt(thisW * ratio);
+        } else {
+            thisH = r.h;
+            thisW = parseInt(thisH / ratio);
+        }
+        if ((thisW == r.w) &amp;&amp; (thisH == r.h)) return;
+        if (sender.resizeMode == "width") {
+            ee.setRect(sender, null, null, null, thisH);
+            console.log(thisH);
+        } else {
+            ee.setRect(sender, null, null, thisW, null);
+        }
+    }
+});
+observer.observe(sender);
+]]></onCreate>
+      <sizeRatio>0.437448218724109</sizeRatio>
+      <topRatio>0.125</topRatio>
+      <userProperty>//#P:resizeMode|Image Auto Size|width|enum|width,height|resize based on width or height
+</userProperty>
+      <width>1207</width>
+      <widthRatio>1</widthRatio>
+    </control>
+  </controls>
+  <taskSet count="0" />
+  <gridLines count="0" />
+  <g5Items count="0" />
+</page>
