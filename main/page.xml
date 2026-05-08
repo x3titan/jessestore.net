@@ -1,5 +1,5 @@
 <page>
-  <controls count="79">
+  <controls count="88">
     <control type="DivRoot" pathname="/divRoot">
       <backgroundColor>ffffff</backgroundColor>
       <bgColorEnabled>true</bgColorEnabled>
@@ -125,6 +125,8 @@
       <widthRatio>0.249581239530988</widthRatio>
     </control>
     <control type="Panel" pathname="/divRoot/panel4">
+      <__U_onSizeChanged type="jsMix">let r = eb.getDivRectSetting(ee.getControl("panel13"));
+ee.setRect(ee.getControl("divRoot"),null,null,null,r.y+r.h);</__U_onSizeChanged>
       <__U_resizeMode type="enum">width</__U_resizeMode>
       <backgroundImg>152241.png</backgroundImg>
       <backgroundImgMode>fill</backgroundImgMode>
@@ -156,6 +158,7 @@
             ee.setRect(sender, null, null, thisW, null);
         }
         eb.processDock();
+        sender.onSizeChanged(sender);
     }
 });
 observer.observe(sender);
@@ -163,6 +166,7 @@ observer.observe(sender);
       <sizeRatio>0.273291925465839</sizeRatio>
       <topRatio>0.05</topRatio>
       <userProperty>//#P:resizeMode|Image Auto Size|width|enum|width,height|resize based on width or height
+//#P:onSizeChanged|Image Auto Size||jsMix||event fire after size changed (sender)
 </userProperty>
       <width>1932</width>
       <widthRatio>1</widthRatio>
@@ -1125,79 +1129,230 @@ quality materials.]]></text>
       <bindControl>panel12</bindControl>
       <bindTop>bottom</bindTop>
       <dockX>fill</dockX>
-      <height>181</height>
-      <heightRatio>0.0663246610480029</heightRatio>
+      <height>162</height>
+      <heightRatio>0.0593624038109197</heightRatio>
       <left>0</left>
-      <leftRatio>-0.0005175983436853</leftRatio>
-      <sizeRatio>0.0936853002070393</sizeRatio>
+      <sizeRatio>0.0838509316770186</sizeRatio>
       <top>2167</top>
-      <topRatio>0.869915720043972</topRatio>
+      <topRatio>0.794063759618908</topRatio>
       <width>1932</width>
       <widthRatio>1</widthRatio>
     </control>
-    <control type="LayoutX" pathname="/divRoot/panel13/layoutx8">
+    <control type="LayoutY" pathname="/divRoot/panel13/layouty9">
       <dockX>center</dockX>
       <dockY>fill</dockY>
-      <fieldCount>4</fieldCount>
-      <height>181</height>
+      <height>162</height>
       <heightRatio>1</heightRatio>
       <left>466</left>
-      <leftRatio>0.24120082815735</leftRatio>
+      <leftRatio>0.474120082815735</leftRatio>
       <sizeRatio>0.181</sizeRatio>
       <top>0</top>
       <width>1000</width>
       <widthRatio>0.5175983436853</widthRatio>
     </control>
-    <control type="LayoutXItem" pathname="/divRoot/panel13/layoutx8/layoutxitem26">
+    <control type="LayoutYItem" pathname="/divRoot/panel13/layouty9/layoutyitem18">
       <backgroundColor>f0f0f0</backgroundColor>
-      <fontBold>true</fontBold>
-      <fontColor>2155A5</fontColor>
-      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
-      <fontSize>16</fontSize>
-      <height>181</height>
+      <heavyEnabled>false</heavyEnabled>
+      <height>43</height>
+      <heightRatio>0.187772925764192</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.043</sizeRatio>
+      <top>0</top>
+      <width>1000</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel13/layouty9/layoutyitem18/layoutx8">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>4</fieldCount>
+      <height>43</height>
       <heightRatio>1</heightRatio>
       <left>0</left>
-      <sizeRatio>0.724</sizeRatio>
+      <leftRatio>0.001</leftRatio>
+      <sizeRatio>0.076</sizeRatio>
       <top>0</top>
+      <topRatio>-0.0131578947368421</topRatio>
+      <width>1000</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layouty9/layoutyitem18/layoutx8/layoutxitem26">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>FFFFFF</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>19</fontSize>
+      <hAlign>left</hAlign>
+      <height>43</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.24</sizeRatio>
+      <text>JESSE STORE</text>
+      <top>0</top>
+      <vAlign>bottom</vAlign>
       <width>250</width>
       <widthRatio>0.25</widthRatio>
     </control>
-    <control type="LayoutXItem" pathname="/divRoot/panel13/layoutx8/layoutxitem27">
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layouty9/layoutyitem18/layoutx8/layoutxitem27">
       <backgroundColor>d0d0d0</backgroundColor>
       <fontBold>true</fontBold>
-      <fontColor>505050</fontColor>
+      <fontColor>FFFFFF</fontColor>
       <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
-      <fontSize>16</fontSize>
-      <height>181</height>
+      <fontSize>14</fontSize>
+      <hAlign>left</hAlign>
+      <height>43</height>
       <heightRatio>1</heightRatio>
       <left>250</left>
       <leftRatio>0.25</leftRatio>
-      <sizeRatio>0.724</sizeRatio>
+      <sizeRatio>0.24</sizeRatio>
+      <text>Quick Links</text>
       <top>0</top>
+      <vAlign>bottom</vAlign>
       <width>250</width>
       <widthRatio>0.25</widthRatio>
     </control>
-    <control type="LayoutXItem" pathname="/divRoot/panel13/layoutx8/layoutxitem28">
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layouty9/layoutyitem18/layoutx8/layoutxitem28">
       <backgroundColor>f0f0f0</backgroundColor>
-      <height>181</height>
+      <fontBold>true</fontBold>
+      <fontColor>FFFFFF</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>14</fontSize>
+      <hAlign>left</hAlign>
+      <height>43</height>
       <heightRatio>1</heightRatio>
       <left>500</left>
       <leftRatio>0.5</leftRatio>
-      <sizeRatio>0.724</sizeRatio>
+      <sizeRatio>0.24</sizeRatio>
+      <text>Contact Us</text>
       <top>0</top>
+      <vAlign>bottom</vAlign>
       <width>250</width>
       <widthRatio>0.25</widthRatio>
     </control>
-    <control type="LayoutXItem" pathname="/divRoot/panel13/layoutx8/layoutxitem29">
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layouty9/layoutyitem18/layoutx8/layoutxitem29">
       <backgroundColor>d0d0d0</backgroundColor>
-      <height>181</height>
+      <fontBold>true</fontBold>
+      <fontColor>FFFFFF</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>14</fontSize>
+      <hAlign>left</hAlign>
+      <height>43</height>
       <heightRatio>1</heightRatio>
       <left>750</left>
       <leftRatio>0.75</leftRatio>
-      <sizeRatio>0.724</sizeRatio>
+      <sizeRatio>0.24</sizeRatio>
+      <text>Follow Us</text>
       <top>0</top>
+      <vAlign>bottom</vAlign>
       <width>250</width>
       <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel13/layouty9/layoutyitem19">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <height>81</height>
+      <heightRatio>0.34</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.34</sizeRatio>
+      <top>43</top>
+      <topRatio>0.33</topRatio>
+      <width>1000</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel13/layouty9/layoutyitem19/layoutx9">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>4</fieldCount>
+      <height>71</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <outerTop>10</outerTop>
+      <sizeRatio>0.148</sizeRatio>
+      <top>10</top>
+      <width>1000</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layouty9/layoutyitem19/layoutx9/layoutxitem30">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <fontColor>FFFFFF</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <hAlign>left</hAlign>
+      <height>71</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.592</sizeRatio>
+      <text>Compact Networking Solutions
+for Everyday Use.</text>
+      <top>0</top>
+      <vAlign>top</vAlign>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layouty9/layoutyitem19/layoutx9/layoutxitem31">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontColor>FFFFFF</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <hAlign>left</hAlign>
+      <height>71</height>
+      <heightRatio>1</heightRatio>
+      <left>250</left>
+      <leftRatio>0.25</leftRatio>
+      <sizeRatio>0.552</sizeRatio>
+      <text>Home
+Products
+About
+Contact</text>
+      <top>0</top>
+      <vAlign>top</vAlign>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layouty9/layoutyitem19/layoutx9/layoutxitem32">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <fontColor>FFFFFF</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <hAlign>left</hAlign>
+      <height>71</height>
+      <heightRatio>1</heightRatio>
+      <left>500</left>
+      <leftRatio>0.5</leftRatio>
+      <sizeRatio>0.552</sizeRatio>
+      <text>✉ support@jessestore.net</text>
+      <top>0</top>
+      <vAlign>top</vAlign>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layouty9/layoutyitem19/layoutx9/layoutxitem33">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontColor>FFFFFF</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <hAlign>left</hAlign>
+      <height>71</height>
+      <heightRatio>1</heightRatio>
+      <left>750</left>
+      <leftRatio>0.75</leftRatio>
+      <sizeRatio>0.552</sizeRatio>
+      <text>Facebook
+Instagram
+Email</text>
+      <top>0</top>
+      <vAlign>top</vAlign>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel13/layouty9/layoutyitem20">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <fontColor>FFFFFF</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <heavyEnabled>false</heavyEnabled>
+      <height>38</height>
+      <heightRatio>0.165938864628821</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.038</sizeRatio>
+      <text>© 2024 JESSE STORE. All Rights Reserved.</text>
+      <top>124</top>
+      <topRatio>0.834061135371179</topRatio>
+      <width>1000</width>
+      <widthRatio>1</widthRatio>
     </control>
   </controls>
   <taskSet count="0" />
