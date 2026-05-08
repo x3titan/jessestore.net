@@ -126,7 +126,9 @@
     </control>
     <control type="Panel" pathname="/divRoot/panel4">
       <__U_onSizeChanged type="jsMix">let r = eb.getDivRectSetting(ee.getControl("panel13"));
-ee.setRect(ee.getControl("divRoot"),null,null,null,r.y+r.h);</__U_onSizeChanged>
+console.log(r.y);
+ee.setRect(ee.getControl("divRoot"),null,null,null,r.y+r.h);
+</__U_onSizeChanged>
       <__U_resizeMode type="enum">width</__U_resizeMode>
       <backgroundImg>152241.png</backgroundImg>
       <backgroundImgMode>fill</backgroundImgMode>
