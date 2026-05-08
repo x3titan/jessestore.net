@@ -1,12 +1,12 @@
 <page>
-  <controls count="47">
+  <controls count="59">
     <control type="DivRoot" pathname="/divRoot">
       <backgroundColor>ffffff</backgroundColor>
       <bgColorEnabled>true</bgColorEnabled>
       <dockX>fill</dockX>
-      <height>2000</height>
+      <height>3000</height>
       <left>0</left>
-      <top>-1</top>
+      <top>0</top>
       <width>1932</width>
     </control>
     <control type="Panel" pathname="/divRoot/panel1">
@@ -14,11 +14,11 @@
       <dockY>top</dockY>
       <heightRatio>0.05</heightRatio>
       <left>466</left>
-      <leftRatio>0.0853355426677713</leftRatio>
+      <leftRatio>0.24120082815735</leftRatio>
       <sizeRatio>0.1</sizeRatio>
       <top>0</top>
       <width>1000</width>
-      <widthRatio>0.828500414250207</widthRatio>
+      <widthRatio>0.5175983436853</widthRatio>
     </control>
     <control type="Panel" pathname="/divRoot/panel1/panel3">
       <backgroundImg>CPY0002.jpg</backgroundImg>
@@ -160,7 +160,7 @@
 });
 observer.observe(sender);
 ]]></onCreate>
-      <sizeRatio>0.437448218724109</sizeRatio>
+      <sizeRatio>0.273291925465839</sizeRatio>
       <topRatio>0.05</topRatio>
       <userProperty>//#P:resizeMode|Image Auto Size|width|enum|width,height|resize based on width or height
 </userProperty>
@@ -174,12 +174,12 @@ observer.observe(sender);
       <height>388</height>
       <heightRatio>0.194</heightRatio>
       <left>466</left>
-      <leftRatio>0.0853355426677713</leftRatio>
+      <leftRatio>0.24120082815735</leftRatio>
       <sizeRatio>0.388</sizeRatio>
       <top>628</top>
       <topRatio>0.314</topRatio>
       <width>1000</width>
-      <widthRatio>0.828500414250207</widthRatio>
+      <widthRatio>0.5175983436853</widthRatio>
     </control>
     <control type="Panel" pathname="/divRoot/panel5/panel6">
       <dockX>center</dockX>
@@ -548,14 +548,14 @@ quality materials.]]></text>
       <dockX>center</dockX>
       <dockY>fill</dockY>
       <height>457</height>
-      <heightRatio>0.968304278922346</heightRatio>
+      <heightRatio>0.919517102615694</heightRatio>
       <left>466</left>
       <leftRatio>0.24120082815735</leftRatio>
       <outerBottom>20</outerBottom>
       <outerTop>20</outerTop>
-      <sizeRatio>0.611</sizeRatio>
+      <sizeRatio>0.457</sizeRatio>
       <top>20</top>
-      <topRatio>0.0316957210776545</topRatio>
+      <topRatio>0.0402414486921529</topRatio>
       <width>1000</width>
       <widthRatio>0.5175983436853</widthRatio>
     </control>
@@ -585,8 +585,8 @@ quality materials.]]></text>
       <height>457</height>
       <heightRatio>1</heightRatio>
       <left>442</left>
-      <leftRatio>0.457</leftRatio>
-      <sizeRatio>65.8571428571429</sizeRatio>
+      <leftRatio>0.442</leftRatio>
+      <sizeRatio>65.2857142857143</sizeRatio>
       <top>0</top>
       <width>7</width>
       <widthRatio>0.007</widthRatio>
@@ -596,11 +596,11 @@ quality materials.]]></text>
       <height>457</height>
       <heightRatio>1</heightRatio>
       <left>449</left>
-      <leftRatio>0.464</leftRatio>
-      <sizeRatio>0.860074626865672</sizeRatio>
+      <leftRatio>0.449</leftRatio>
+      <sizeRatio>0.82940108892922</sizeRatio>
       <top>0</top>
       <width>551</width>
-      <widthRatio>0.536</widthRatio>
+      <widthRatio>0.551</widthRatio>
     </control>
     <control type="LayoutY" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5">
       <dockX>fill</dockX>
@@ -608,7 +608,7 @@ quality materials.]]></text>
       <height>457</height>
       <heightRatio>1</heightRatio>
       <left>0</left>
-      <sizeRatio>0.860074626865672</sizeRatio>
+      <sizeRatio>0.82940108892922</sizeRatio>
       <top>0</top>
       <width>551</width>
       <widthRatio>1</widthRatio>
@@ -616,9 +616,9 @@ quality materials.]]></text>
     <control type="LayoutYItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem9">
       <backgroundColor>f0f0f0</backgroundColor>
       <height>225</height>
-      <heightRatio>0.492407809110629</heightRatio>
+      <heightRatio>0.492341356673961</heightRatio>
       <left>0</left>
-      <sizeRatio>0.423507462686567</sizeRatio>
+      <sizeRatio>0.408348457350272</sizeRatio>
       <top>0</top>
       <width>551</width>
       <widthRatio>1</widthRatio>
@@ -629,7 +629,7 @@ quality materials.]]></text>
       <height>225</height>
       <heightRatio>1</heightRatio>
       <left>0</left>
-      <sizeRatio>0.423507462686567</sizeRatio>
+      <sizeRatio>0.408348457350272</sizeRatio>
       <top>0</top>
       <width>551</width>
       <widthRatio>1</widthRatio>
@@ -640,10 +640,10 @@ quality materials.]]></text>
       <height>225</height>
       <heightRatio>1</heightRatio>
       <left>0</left>
-      <sizeRatio>0.859848484848485</sizeRatio>
+      <sizeRatio>0.827205882352941</sizeRatio>
       <top>0</top>
       <width>272</width>
-      <widthRatio>0.492537313432836</widthRatio>
+      <widthRatio>0.493647912885662</widthRatio>
     </control>
     <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem9/layoutx4/layoutxitem13">
       <backgroundColor>d0d0d0</backgroundColor>
@@ -651,11 +651,11 @@ quality materials.]]></text>
       <height>225</height>
       <heightRatio>1</heightRatio>
       <left>272</left>
-      <leftRatio>0.492537313432836</leftRatio>
-      <sizeRatio>32.4285714285714</sizeRatio>
+      <leftRatio>0.493647912885662</leftRatio>
+      <sizeRatio>32.1428571428571</sizeRatio>
       <top>0</top>
       <width>7</width>
-      <widthRatio>0.0130597014925373</widthRatio>
+      <widthRatio>0.0127041742286751</widthRatio>
     </control>
     <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem9/layoutx4/layoutxitem14">
       <backgroundColor>f0f0f0</backgroundColor>
@@ -663,32 +663,32 @@ quality materials.]]></text>
       <height>225</height>
       <heightRatio>1</heightRatio>
       <left>279</left>
-      <leftRatio>0.505597014925373</leftRatio>
-      <sizeRatio>0.856603773584906</sizeRatio>
+      <leftRatio>0.506352087114338</leftRatio>
+      <sizeRatio>0.827205882352941</sizeRatio>
       <top>0</top>
       <width>272</width>
-      <widthRatio>0.494402985074627</widthRatio>
+      <widthRatio>0.493647912885662</widthRatio>
     </control>
     <control type="LayoutYItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem10">
       <backgroundColor>d0d0d0</backgroundColor>
       <heavyEnabled>false</heavyEnabled>
       <height>7</height>
-      <heightRatio>0.0151843817787419</heightRatio>
+      <heightRatio>0.0153172866520788</heightRatio>
       <left>0</left>
-      <sizeRatio>0.0130597014925373</sizeRatio>
+      <sizeRatio>0.0127041742286751</sizeRatio>
       <top>225</top>
-      <topRatio>0.492407809110629</topRatio>
+      <topRatio>0.492341356673961</topRatio>
       <width>551</width>
       <widthRatio>1</widthRatio>
     </control>
     <control type="LayoutYItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem11">
       <backgroundColor>f0f0f0</backgroundColor>
       <height>225</height>
-      <heightRatio>0.492407809110629</heightRatio>
+      <heightRatio>0.492341356673961</heightRatio>
       <left>0</left>
-      <sizeRatio>0.423507462686567</sizeRatio>
+      <sizeRatio>0.408348457350272</sizeRatio>
       <top>232</top>
-      <topRatio>0.507592190889371</topRatio>
+      <topRatio>0.507658643326039</topRatio>
       <width>551</width>
       <widthRatio>1</widthRatio>
     </control>
@@ -698,7 +698,7 @@ quality materials.]]></text>
       <height>225</height>
       <heightRatio>1</heightRatio>
       <left>0</left>
-      <sizeRatio>0.423507462686567</sizeRatio>
+      <sizeRatio>0.408348457350272</sizeRatio>
       <top>0</top>
       <width>551</width>
       <widthRatio>1</widthRatio>
@@ -709,10 +709,10 @@ quality materials.]]></text>
       <height>225</height>
       <heightRatio>1</heightRatio>
       <left>0</left>
-      <sizeRatio>0.859848484848485</sizeRatio>
+      <sizeRatio>0.827205882352941</sizeRatio>
       <top>0</top>
       <width>272</width>
-      <widthRatio>0.492537313432836</widthRatio>
+      <widthRatio>0.493647912885662</widthRatio>
     </control>
     <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem11/layoutx5/layoutxitem16">
       <backgroundColor>d0d0d0</backgroundColor>
@@ -720,11 +720,11 @@ quality materials.]]></text>
       <height>225</height>
       <heightRatio>1</heightRatio>
       <left>272</left>
-      <leftRatio>0.492537313432836</leftRatio>
-      <sizeRatio>32.4285714285714</sizeRatio>
+      <leftRatio>0.493647912885662</leftRatio>
+      <sizeRatio>32.1428571428571</sizeRatio>
       <top>0</top>
       <width>7</width>
-      <widthRatio>0.0130597014925373</widthRatio>
+      <widthRatio>0.0127041742286751</widthRatio>
     </control>
     <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem11/layoutx5/layoutxitem17">
       <backgroundColor>f0f0f0</backgroundColor>
@@ -732,11 +732,181 @@ quality materials.]]></text>
       <height>225</height>
       <heightRatio>1</heightRatio>
       <left>279</left>
-      <leftRatio>0.505597014925373</leftRatio>
-      <sizeRatio>0.856603773584906</sizeRatio>
+      <leftRatio>0.506352087114338</leftRatio>
+      <sizeRatio>0.827205882352941</sizeRatio>
       <top>0</top>
       <width>272</width>
-      <widthRatio>0.494402985074627</widthRatio>
+      <widthRatio>0.493647912885662</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel9">
+      <backgroundColor>F8F8FC</backgroundColor>
+      <bindControl>panel8</bindControl>
+      <bindTop>bottom</bindTop>
+      <dockX>fill</dockX>
+      <height>365</height>
+      <heightRatio>0.121666666666667</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.188923395445135</sizeRatio>
+      <top>1513</top>
+      <topRatio>0.504333333333333</topRatio>
+      <width>1932</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel9/panel10">
+      <dockX>center</dockX>
+      <dockY>top</dockY>
+      <fontBold>true</fontBold>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>21</fontSize>
+      <height>99</height>
+      <heightRatio>0.199195171026157</heightRatio>
+      <left>466</left>
+      <leftRatio>0.24120082815735</leftRatio>
+      <sizeRatio>0.099</sizeRatio>
+      <text>Perfect for Every Situation</text>
+      <top>0</top>
+      <width>1000</width>
+      <widthRatio>0.5175983436853</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel9/panel10/panel11">
+      <backgroundColor>2155A5</backgroundColor>
+      <bgColorEnabled>true</bgColorEnabled>
+      <dockX>center</dockX>
+      <dockY>bottom</dockY>
+      <fontColor>2155A5</fontColor>
+      <height>4</height>
+      <heightRatio>0.0404040404040404</heightRatio>
+      <left>319</left>
+      <leftRatio>0.319</leftRatio>
+      <outerBottom>15</outerBottom>
+      <sizeRatio>0.0110803324099723</sizeRatio>
+      <top>80</top>
+      <topRatio>0.808080808080808</topRatio>
+      <width>361</width>
+      <widthRatio>0.361</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel9/layoutx6">
+      <dockX>center</dockX>
+      <dockY>bottom</dockY>
+      <fieldCount>5</fieldCount>
+      <height>237</height>
+      <heightRatio>0.476861167002012</heightRatio>
+      <left>466</left>
+      <leftRatio>0.24120082815735</leftRatio>
+      <sizeRatio>0.237</sizeRatio>
+      <top>128</top>
+      <topRatio>0.523138832997988</topRatio>
+      <width>1000</width>
+      <widthRatio>0.5175983436853</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel9/layoutx6/layoutxitem18">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>2155A5</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>237</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>1.03393665158371</sizeRatio>
+      <top>0</top>
+      <width>300</width>
+      <widthRatio>0.442</widthRatio>
+    </control>
+    <control type="LayoutY" pathname="/divRoot/panel9/layoutx6/layoutxitem18/layouty6">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>2</fieldCount>
+      <height>237</height>
+      <heightRatio>0.284090909090909</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.333333333333333</sizeRatio>
+      <top>0</top>
+      <topRatio>0.315340909090909</topRatio>
+      <width>300</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel9/layoutx6/layoutxitem18/layouty6/layoutyitem12">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <backgroundImg>b1.png</backgroundImg>
+      <heavyEnabled>false</heavyEnabled>
+      <height>176</height>
+      <heightRatio>0.742616033755274</heightRatio>
+      <left>0</left>
+      <leftRatio>0.00333333333333333</leftRatio>
+      <onCreate>sender.style.borderRadius = "12px";</onCreate>
+      <sizeRatio>0.586666666666667</sizeRatio>
+      <top>0</top>
+      <topRatio>-0.00421940928270042</topRatio>
+      <width>300</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel9/layoutx6/layoutxitem18/layouty6/layoutyitem13">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>61</height>
+      <heightRatio>0.257383966244726</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.203333333333333</sizeRatio>
+      <text>Office</text>
+      <top>176</top>
+      <topRatio>0.742616033755274</topRatio>
+      <width>300</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel9/layoutx6/layoutxitem19">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>505050</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <heavyEnabled>false</heavyEnabled>
+      <height>237</height>
+      <heightRatio>1</heightRatio>
+      <left>300</left>
+      <leftRatio>0.2</leftRatio>
+      <sizeRatio>9.14</sizeRatio>
+      <top>0</top>
+      <width>50</width>
+      <widthRatio>0.05</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel9/layoutx6/layoutxitem20">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>237</height>
+      <heightRatio>1</heightRatio>
+      <left>350</left>
+      <leftRatio>0.449</leftRatio>
+      <sizeRatio>2.48369565217391</sizeRatio>
+      <top>0</top>
+      <width>300</width>
+      <widthRatio>0.184</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel9/layoutx6/layoutxitem21">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <heavyEnabled>false</heavyEnabled>
+      <height>237</height>
+      <heightRatio>1</heightRatio>
+      <left>650</left>
+      <leftRatio>0.6</leftRatio>
+      <sizeRatio>9.14</sizeRatio>
+      <top>0</top>
+      <width>50</width>
+      <widthRatio>0.05</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel9/layoutx6/layoutxitem22">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>237</height>
+      <heightRatio>1</heightRatio>
+      <left>700</left>
+      <leftRatio>0.816</leftRatio>
+      <sizeRatio>2.48369565217391</sizeRatio>
+      <top>0</top>
+      <width>300</width>
+      <widthRatio>0.184</widthRatio>
     </control>
   </controls>
   <taskSet count="0" />
