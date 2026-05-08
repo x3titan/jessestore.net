@@ -1,12 +1,12 @@
 <page>
-  <controls count="59">
+  <controls count="79">
     <control type="DivRoot" pathname="/divRoot">
       <backgroundColor>ffffff</backgroundColor>
       <bgColorEnabled>true</bgColorEnabled>
       <dockX>fill</dockX>
-      <height>3000</height>
+      <height>2729</height>
       <left>0</left>
-      <top>0</top>
+      <top>-1</top>
       <width>1932</width>
     </control>
     <control type="Panel" pathname="/divRoot/panel1">
@@ -885,6 +885,49 @@ quality materials.]]></text>
       <width>300</width>
       <widthRatio>0.184</widthRatio>
     </control>
+    <control type="LayoutY" pathname="/divRoot/panel9/layoutx6/layoutxitem20/layouty7">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>2</fieldCount>
+      <height>237</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <leftRatio>0.42</leftRatio>
+      <sizeRatio>0.79</sizeRatio>
+      <top>0</top>
+      <topRatio>0.443037974683544</topRatio>
+      <width>300</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel9/layoutx6/layoutxitem20/layouty7/layoutyitem14">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <backgroundImg>b2.png</backgroundImg>
+      <heavyEnabled>false</heavyEnabled>
+      <height>176</height>
+      <heightRatio>0.742616033755274</heightRatio>
+      <left>0</left>
+      <onCreate>sender.style.borderRadius = "12px";</onCreate>
+      <sizeRatio>0.586666666666667</sizeRatio>
+      <top>0</top>
+      <width>300</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel9/layoutx6/layoutxitem20/layouty7/layoutyitem15">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>61</height>
+      <heightRatio>0.257383966244726</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.203333333333333</sizeRatio>
+      <text>Travel</text>
+      <top>176</top>
+      <topRatio>0.742616033755274</topRatio>
+      <width>300</width>
+      <widthRatio>1</widthRatio>
+    </control>
     <control type="LayoutXItem" pathname="/divRoot/panel9/layoutx6/layoutxitem21">
       <backgroundColor>d0d0d0</backgroundColor>
       <heavyEnabled>false</heavyEnabled>
@@ -907,6 +950,254 @@ quality materials.]]></text>
       <top>0</top>
       <width>300</width>
       <widthRatio>0.184</widthRatio>
+    </control>
+    <control type="LayoutY" pathname="/divRoot/panel9/layoutx6/layoutxitem22/layouty8">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>2</fieldCount>
+      <height>237</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <leftRatio>0.416666666666667</leftRatio>
+      <sizeRatio>0.79</sizeRatio>
+      <top>0</top>
+      <topRatio>0.345991561181435</topRatio>
+      <width>300</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel9/layoutx6/layoutxitem22/layouty8/layoutyitem16">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <backgroundImg>b3.png</backgroundImg>
+      <heavyEnabled>false</heavyEnabled>
+      <height>176</height>
+      <heightRatio>0.742616033755274</heightRatio>
+      <left>0</left>
+      <onCreate>sender.style.borderRadius = "12px";</onCreate>
+      <sizeRatio>0.586666666666667</sizeRatio>
+      <top>0</top>
+      <width>300</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel9/layoutx6/layoutxitem22/layouty8/layoutyitem17">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>61</height>
+      <heightRatio>0.257383966244726</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.203333333333333</sizeRatio>
+      <text>Home &amp; More</text>
+      <top>176</top>
+      <topRatio>0.742616033755274</topRatio>
+      <width>300</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel12">
+      <backgroundColor>F8F8FC</backgroundColor>
+      <bgColorEnabled>true</bgColorEnabled>
+      <bindControl>panel9</bindControl>
+      <bindTop>bottom</bindTop>
+      <dockX>fill</dockX>
+      <height>289</height>
+      <heightRatio>0.105899596921949</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.149585921325052</sizeRatio>
+      <top>1878</top>
+      <topRatio>0.688164162696959</topRatio>
+      <width>1932</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel12/layoutx7">
+      <dockX>center</dockX>
+      <dockY>fill</dockY>
+      <height>269</height>
+      <heightRatio>0.919517102615694</heightRatio>
+      <left>466</left>
+      <leftRatio>0.24120082815735</leftRatio>
+      <outerTop>20</outerTop>
+      <sizeRatio>0.457</sizeRatio>
+      <top>20</top>
+      <topRatio>0.0402414486921529</topRatio>
+      <width>1000</width>
+      <widthRatio>0.5175983436853</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel12/layoutx7/layoutxitem23">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>2155A5</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <heavyEnabled>false</heavyEnabled>
+      <height>269</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.893401015228426</sizeRatio>
+      <top>0</top>
+      <width>394</width>
+      <widthRatio>0.394</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel12/layoutx7/layoutxitem23/panel14">
+      <dockX>fill</dockX>
+      <dockY>top</dockY>
+      <fontBold>true</fontBold>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>19</fontSize>
+      <hAlign>left</hAlign>
+      <height>87</height>
+      <heightRatio>0.182389937106918</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.19683257918552</sizeRatio>
+      <text>About JESSE STORE</text>
+      <top>0</top>
+      <width>394</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel12/layoutx7/layoutxitem23/panel14/panel15">
+      <backgroundColor>2155A5</backgroundColor>
+      <bgColorEnabled>true</bgColorEnabled>
+      <dockX>left</dockX>
+      <dockY>bottom</dockY>
+      <fontColor>2155A5</fontColor>
+      <height>4</height>
+      <heightRatio>0.0459770114942529</heightRatio>
+      <left>0</left>
+      <outerBottom>15</outerBottom>
+      <sizeRatio>0.0149253731343284</sizeRatio>
+      <top>68</top>
+      <topRatio>0.781609195402299</topRatio>
+      <width>268</width>
+      <widthRatio>0.606334841628959</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel12/layoutx7/layoutxitem23/panel16">
+      <dockX>fill</dockX>
+      <dockY>bottom</dockY>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>13</fontSize>
+      <hAlign>left</hAlign>
+      <height>184</height>
+      <heightRatio>0.684014869888476</heightRatio>
+      <left>0</left>
+      <outerRight>50</outerRight>
+      <sizeRatio>0.534883720930233</sizeRatio>
+      <text>JESSE STORE is dedicated to creating practical and reliable networking accessories that make your digital life simpler and more efficient. We focus on quality, portability, and user experience.</text>
+      <top>85</top>
+      <topRatio>0.315985130111524</topRatio>
+      <vAlign>top</vAlign>
+      <width>344</width>
+      <widthRatio>0.873096446700508</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel12/layoutx7/layoutxitem24">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>505050</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <heavyEnabled>false</heavyEnabled>
+      <height>269</height>
+      <heightRatio>1</heightRatio>
+      <left>394</left>
+      <leftRatio>0.442</leftRatio>
+      <sizeRatio>65.2857142857143</sizeRatio>
+      <top>0</top>
+      <width>7</width>
+      <widthRatio>0.007</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel12/layoutx7/layoutxitem25">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <backgroundImg>s1.png</backgroundImg>
+      <height>269</height>
+      <heightRatio>1</heightRatio>
+      <left>401</left>
+      <leftRatio>0.401</leftRatio>
+      <onCreate>sender.style.borderTopLeftRadius = "12px";</onCreate>
+      <sizeRatio>0.449081803005008</sizeRatio>
+      <top>0</top>
+      <width>599</width>
+      <widthRatio>0.599</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel13">
+      <backgroundColor>2155A5</backgroundColor>
+      <bgColorEnabled>true</bgColorEnabled>
+      <bindControl>panel12</bindControl>
+      <bindTop>bottom</bindTop>
+      <dockX>fill</dockX>
+      <height>181</height>
+      <heightRatio>0.0663246610480029</heightRatio>
+      <left>0</left>
+      <leftRatio>-0.0005175983436853</leftRatio>
+      <sizeRatio>0.0936853002070393</sizeRatio>
+      <top>2167</top>
+      <topRatio>0.869915720043972</topRatio>
+      <width>1932</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel13/layoutx8">
+      <dockX>center</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>4</fieldCount>
+      <height>181</height>
+      <heightRatio>1</heightRatio>
+      <left>466</left>
+      <leftRatio>0.24120082815735</leftRatio>
+      <sizeRatio>0.181</sizeRatio>
+      <top>0</top>
+      <width>1000</width>
+      <widthRatio>0.5175983436853</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layoutx8/layoutxitem26">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>2155A5</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>181</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.724</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layoutx8/layoutxitem27">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>505050</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <height>181</height>
+      <heightRatio>1</heightRatio>
+      <left>250</left>
+      <leftRatio>0.25</leftRatio>
+      <sizeRatio>0.724</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layoutx8/layoutxitem28">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>181</height>
+      <heightRatio>1</heightRatio>
+      <left>500</left>
+      <leftRatio>0.5</leftRatio>
+      <sizeRatio>0.724</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel13/layoutx8/layoutxitem29">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <height>181</height>
+      <heightRatio>1</heightRatio>
+      <left>750</left>
+      <leftRatio>0.75</leftRatio>
+      <sizeRatio>0.724</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
     </control>
   </controls>
   <taskSet count="0" />
