@@ -1,5 +1,5 @@
 <page>
-  <controls count="10">
+  <controls count="47">
     <control type="DivRoot" pathname="/divRoot">
       <backgroundColor>ffffff</backgroundColor>
       <bgColorEnabled>true</bgColorEnabled>
@@ -153,10 +153,10 @@
         if ((thisW == r.w) &amp;&amp; (thisH == r.h)) return;
         if (sender.resizeMode == "width") {
             ee.setRect(sender, null, null, null, thisH);
-            console.log(thisH);
         } else {
             ee.setRect(sender, null, null, thisW, null);
         }
+        eb.processDock();
     }
 });
 observer.observe(sender);
@@ -167,6 +167,584 @@ observer.observe(sender);
 </userProperty>
       <width>1207</width>
       <widthRatio>1</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel5">
+      <bindControl>panel4</bindControl>
+      <bindTop>bottom</bindTop>
+      <dockX>center</dockX>
+      <height>388</height>
+      <heightRatio>0.194</heightRatio>
+      <left>103</left>
+      <leftRatio>0.0853355426677713</leftRatio>
+      <sizeRatio>0.388</sizeRatio>
+      <top>628</top>
+      <topRatio>0.314</topRatio>
+      <width>1000</width>
+      <widthRatio>0.828500414250207</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel5/panel6">
+      <dockX>center</dockX>
+      <dockY>top</dockY>
+      <fontBold>true</fontBold>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>21</fontSize>
+      <height>99</height>
+      <heightRatio>0.278089887640449</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.099</sizeRatio>
+      <text>Why Choose JESSE STORE?</text>
+      <top>0</top>
+      <width>1000</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel5/panel6/panel7">
+      <backgroundColor>2155A5</backgroundColor>
+      <bgColorEnabled>true</bgColorEnabled>
+      <dockX>center</dockX>
+      <dockY>bottom</dockY>
+      <fontColor>2155A5</fontColor>
+      <height>4</height>
+      <heightRatio>0.0404040404040404</heightRatio>
+      <left>300</left>
+      <leftRatio>0.3</leftRatio>
+      <outerBottom>15</outerBottom>
+      <sizeRatio>0.01</sizeRatio>
+      <top>80</top>
+      <topRatio>0.757575757575758</topRatio>
+      <width>400</width>
+      <widthRatio>0.4</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel5/layoutx2">
+      <dockX>fill</dockX>
+      <dockY>bottom</dockY>
+      <fieldCount>4</fieldCount>
+      <height>257</height>
+      <heightRatio>0.662371134020619</heightRatio>
+      <left>0</left>
+      <outerBottom>30</outerBottom>
+      <sizeRatio>0.257</sizeRatio>
+      <top>101</top>
+      <topRatio>0.286082474226804</topRatio>
+      <width>1000</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel5/layoutx2/layoutxitem5">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>257</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>4</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutY" pathname="/divRoot/panel5/layoutx2/layoutxitem5/layouty1">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>2</fieldCount>
+      <height>257</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>1.028</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel5/layoutx2/layoutxitem5/layouty1/layoutyitem1">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>128</height>
+      <heightRatio>0.498054474708171</heightRatio>
+      <left>0</left>
+      <onCreate><![CDATA[sender.style.display = "flex";
+sender.style.justifyContent = "center";
+sender.style.alignItems = "center";
+sender.innerHTML = `
+<div style="
+    width:82px;height:82px;
+    border:2px solid rgb(120,150,200);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+">
+    <svg viewBox="0 0 64 64" width="46" height="46">
+        <path d="M16 28 C24 20,40 20,48 28"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            fill="none" stroke-linecap="round"/>
+
+        <path d="M16 36 C24 44,40 44,48 36"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            fill="none" stroke-linecap="round"/>
+
+        <path d="M20 32 H44"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            fill="none"/>
+    </svg>
+</div>
+`;]]></onCreate>
+      <sizeRatio>0.512</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel5/layoutx2/layoutxitem5/layouty1/layoutyitem2">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>13</fontSize>
+      <height>129</height>
+      <heightRatio>0.501945525291829</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.516</sizeRatio>
+      <text><![CDATA[<b>Retractable Design</b>
+
+Trangle-free and easy
+to store.]]></text>
+      <top>128</top>
+      <topRatio>0.498054474708171</topRatio>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel5/layoutx2/layoutxitem6">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <height>257</height>
+      <heightRatio>1</heightRatio>
+      <left>250</left>
+      <leftRatio>0.25</leftRatio>
+      <sizeRatio>4</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutY" pathname="/divRoot/panel5/layoutx2/layoutxitem6/layouty2">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>2</fieldCount>
+      <height>257</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <leftRatio>0.98</leftRatio>
+      <sizeRatio>1.028</sizeRatio>
+      <top>0</top>
+      <topRatio>0.361867704280156</topRatio>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel5/layoutx2/layoutxitem6/layouty2/layoutyitem3">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>128</height>
+      <heightRatio>0.498054474708171</heightRatio>
+      <left>0</left>
+      <onCreate><![CDATA[sender.style.display = "flex";
+sender.style.justifyContent = "center";
+sender.style.alignItems = "center";
+sender.innerHTML = `
+<div style="
+    width:82px;height:82px;
+    border:2px solid rgb(120,150,200);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+">
+    <svg viewBox="0 0 64 64" width="46" height="46">
+        <path d="M18 42 A18 18 0 1 1 46 42"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            fill="none" stroke-linecap="round"/>
+        <path d="M32 42 L44 28"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            stroke-linecap="round"/>
+    </svg>
+</div>
+`;]]></onCreate>
+      <sizeRatio>0.512</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel5/layoutx2/layoutxitem6/layouty2/layoutyitem4">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>13</fontSize>
+      <height>129</height>
+      <heightRatio>0.501945525291829</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.516</sizeRatio>
+      <text><![CDATA[<b>High Speed Network</b>
+
+Up to 100Mbps for stable
+and fast connection.]]></text>
+      <top>128</top>
+      <topRatio>0.498054474708171</topRatio>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel5/layoutx2/layoutxitem7">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>257</height>
+      <heightRatio>1</heightRatio>
+      <left>500</left>
+      <leftRatio>0.5</leftRatio>
+      <sizeRatio>4</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutY" pathname="/divRoot/panel5/layoutx2/layoutxitem7/layouty3">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>2</fieldCount>
+      <height>257</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <leftRatio>0.52</leftRatio>
+      <sizeRatio>1.028</sizeRatio>
+      <top>0</top>
+      <topRatio>0.392996108949416</topRatio>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel5/layoutx2/layoutxitem7/layouty3/layoutyitem5">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>128</height>
+      <heightRatio>0.498054474708171</heightRatio>
+      <left>0</left>
+      <onCreate><![CDATA[sender.style.display = "flex";
+sender.style.justifyContent = "center";
+sender.style.alignItems = "center";
+sender.innerHTML = `
+<div style="
+    width:82px;height:82px;
+    border:2px solid rgb(120,150,200);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+">
+    <svg viewBox="0 0 64 64" width="46" height="46">
+        <rect x="18" y="26" width="28" height="20" rx="3"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            fill="none"/>
+        <path d="M26 26 V20 H38 V26"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            fill="none" stroke-linecap="round"/>
+        <path d="M18 34 H46"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            fill="none"/>
+    </svg>
+</div>
+`;]]></onCreate>
+      <sizeRatio>0.512</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel5/layoutx2/layoutxitem7/layouty3/layoutyitem6">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>13</fontSize>
+      <height>129</height>
+      <heightRatio>0.501945525291829</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.516</sizeRatio>
+      <text><![CDATA[<b>Compact &amp; Portable</b>
+
+perfact for travel
+and office.]]></text>
+      <top>128</top>
+      <topRatio>0.498054474708171</topRatio>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel5/layoutx2/layoutxitem8">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <height>257</height>
+      <heightRatio>1</heightRatio>
+      <left>750</left>
+      <leftRatio>0.75</leftRatio>
+      <sizeRatio>4</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>0.25</widthRatio>
+    </control>
+    <control type="LayoutY" pathname="/divRoot/panel5/layoutx2/layoutxitem8/layouty4">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <fieldCount>2</fieldCount>
+      <height>257</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <leftRatio>0.5</leftRatio>
+      <sizeRatio>1.028</sizeRatio>
+      <top>0</top>
+      <topRatio>0.431906614785992</topRatio>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel5/layoutx2/layoutxitem8/layouty4/layoutyitem7">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>128</height>
+      <heightRatio>0.498054474708171</heightRatio>
+      <left>0</left>
+      <onCreate><![CDATA[sender.style.display = "flex";
+sender.style.justifyContent = "center";
+sender.style.alignItems = "center";
+sender.innerHTML = `
+<div style="
+    width:82px;height:82px;
+    border:2px solid rgb(120,150,200);
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+">
+    <svg viewBox="0 0 64 64" width="46" height="46">
+        <path d="M32 14 L46 20 V32 
+                 C46 42 39 48 32 52 
+                 C25 48 18 42 18 32 V20 Z"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            fill="none" stroke-linejoin="round"/>
+        <path d="M25 32 L30 37 L40 26"
+            stroke="rgb(33,85,165)" stroke-width="4"
+            fill="none" stroke-linecap="round"/>
+    </svg>
+</div>
+`;]]></onCreate>
+      <sizeRatio>0.512</sizeRatio>
+      <top>0</top>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel5/layoutx2/layoutxitem8/layouty4/layoutyitem8">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontColor>282828</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>13</fontSize>
+      <height>129</height>
+      <heightRatio>0.501945525291829</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.516</sizeRatio>
+      <text><![CDATA[<b>Durable &amp; Reliable</b>
+
+Built to last with
+quality materials.]]></text>
+      <top>128</top>
+      <topRatio>0.498054474708171</topRatio>
+      <width>250</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="Panel" pathname="/divRoot/panel8">
+      <backgroundColor>F8F8FC</backgroundColor>
+      <bgColorEnabled>true</bgColorEnabled>
+      <bindControl>panel5</bindControl>
+      <bindTop>bottom</bindTop>
+      <dockX>fill</dockX>
+      <height>461</height>
+      <heightRatio>0.2305</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.381938690969345</sizeRatio>
+      <top>1016</top>
+      <topRatio>0.492</topRatio>
+      <width>1207</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel8/layoutx3">
+      <dockX>center</dockX>
+      <dockY>fill</dockY>
+      <height>461</height>
+      <heightRatio>1</heightRatio>
+      <left>103</left>
+      <leftRatio>0.0853355426677713</leftRatio>
+      <sizeRatio>0.461</sizeRatio>
+      <top>0</top>
+      <width>1000</width>
+      <widthRatio>0.828500414250207</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem9">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <backgroundImg>AD1.png</backgroundImg>
+      <fontBold>true</fontBold>
+      <fontColor>2155A5</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <heavyEnabled>false</heavyEnabled>
+      <height>461</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>1.00875273522976</sizeRatio>
+      <top>0</top>
+      <width>457</width>
+      <widthRatio>0.457</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem10">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <fontBold>true</fontBold>
+      <fontColor>505050</fontColor>
+      <fontFamily>'Montserrat', 'Poppins', 'Inter', sans-serif</fontFamily>
+      <fontSize>16</fontSize>
+      <heavyEnabled>false</heavyEnabled>
+      <height>461</height>
+      <heightRatio>1</heightRatio>
+      <left>457</left>
+      <leftRatio>0.457</leftRatio>
+      <sizeRatio>65.8571428571429</sizeRatio>
+      <top>0</top>
+      <width>7</width>
+      <widthRatio>0.007</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>461</height>
+      <heightRatio>1</heightRatio>
+      <left>464</left>
+      <leftRatio>0.679</leftRatio>
+      <sizeRatio>1.43613707165109</sizeRatio>
+      <top>0</top>
+      <width>536</width>
+      <widthRatio>0.321</widthRatio>
+    </control>
+    <control type="LayoutY" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <height>461</height>
+      <heightRatio>0.216919739696312</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.186567164179104</sizeRatio>
+      <top>0</top>
+      <topRatio>0.364425162689805</topRatio>
+      <width>536</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem9">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>227</height>
+      <heightRatio>0.33</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.33</sizeRatio>
+      <top>0</top>
+      <width>536</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem9/layoutx4">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <height>227</height>
+      <heightRatio>0.467289719626168</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.186567164179104</sizeRatio>
+      <top>0</top>
+      <topRatio>0.35981308411215</topRatio>
+      <width>536</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem9/layoutx4/layoutxitem12">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <backgroundImg>AD11.png</backgroundImg>
+      <height>227</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.859848484848485</sizeRatio>
+      <top>0</top>
+      <width>264</width>
+      <widthRatio>0.492537313432836</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem9/layoutx4/layoutxitem13">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <heavyEnabled>false</heavyEnabled>
+      <height>227</height>
+      <heightRatio>1</heightRatio>
+      <left>264</left>
+      <leftRatio>0.490671641791045</leftRatio>
+      <sizeRatio>30.5714285714286</sizeRatio>
+      <top>0</top>
+      <width>7</width>
+      <widthRatio>0.0130597014925373</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem9/layoutx4/layoutxitem14">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <backgroundImg>AD13.png</backgroundImg>
+      <height>227</height>
+      <heightRatio>1</heightRatio>
+      <left>271</left>
+      <leftRatio>0.505597014925373</leftRatio>
+      <sizeRatio>0.856603773584906</sizeRatio>
+      <top>0</top>
+      <width>265</width>
+      <widthRatio>0.494402985074627</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem10">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <heavyEnabled>false</heavyEnabled>
+      <height>7</height>
+      <heightRatio>0.0151843817787419</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.0130597014925373</sizeRatio>
+      <top>227</top>
+      <topRatio>0.464208242950108</topRatio>
+      <width>536</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutYItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem11">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <height>227</height>
+      <heightRatio>0.33</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.33</sizeRatio>
+      <top>234</top>
+      <topRatio>0.67</topRatio>
+      <width>536</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutX" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem11/layoutx5">
+      <dockX>fill</dockX>
+      <dockY>fill</dockY>
+      <height>227</height>
+      <heightRatio>1.00469483568075</heightRatio>
+      <left>0</left>
+      <leftRatio>0.360074626865672</leftRatio>
+      <sizeRatio>0.399253731343284</sizeRatio>
+      <top>0</top>
+      <topRatio>0.39906103286385</topRatio>
+      <width>536</width>
+      <widthRatio>1</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem11/layoutx5/layoutxitem15">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <backgroundImg>AD12.png</backgroundImg>
+      <height>227</height>
+      <heightRatio>1</heightRatio>
+      <left>0</left>
+      <sizeRatio>0.859848484848485</sizeRatio>
+      <top>0</top>
+      <width>264</width>
+      <widthRatio>0.492537313432836</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem11/layoutx5/layoutxitem16">
+      <backgroundColor>d0d0d0</backgroundColor>
+      <heavyEnabled>false</heavyEnabled>
+      <height>227</height>
+      <heightRatio>1</heightRatio>
+      <left>264</left>
+      <leftRatio>0.490671641791045</leftRatio>
+      <sizeRatio>30.5714285714286</sizeRatio>
+      <top>0</top>
+      <width>7</width>
+      <widthRatio>0.0130597014925373</widthRatio>
+    </control>
+    <control type="LayoutXItem" pathname="/divRoot/panel8/layoutx3/layoutxitem11/layouty5/layoutyitem11/layoutx5/layoutxitem17">
+      <backgroundColor>f0f0f0</backgroundColor>
+      <backgroundImg>AD14.png</backgroundImg>
+      <height>227</height>
+      <heightRatio>1</heightRatio>
+      <left>271</left>
+      <leftRatio>0.505597014925373</leftRatio>
+      <sizeRatio>0.856603773584906</sizeRatio>
+      <top>0</top>
+      <width>265</width>
+      <widthRatio>0.494402985074627</widthRatio>
     </control>
   </controls>
   <taskSet count="0" />
